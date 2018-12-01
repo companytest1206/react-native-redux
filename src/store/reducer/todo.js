@@ -4,6 +4,8 @@ const initialState = {
     todoItems: [],
 }
 
+const opps = 'OKAY';
+
 const todo = (state = initialState, action) => {
 //   alert(action.type);
   switch (action.type) {
